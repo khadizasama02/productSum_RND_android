@@ -8,14 +8,23 @@
     tools:context=".MainActivity">
 
 
-
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRODUCT INFORMATION"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/purple_200"
+        android:layout_marginBottom="20dp"
+        />
     <EditText
         android:id="@+id/et_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Price of the product"
+        android:hint="Price of the product"
         tools:layout_editor_absoluteX="62dp"
         tools:layout_editor_absoluteY="70dp" />
 
@@ -27,7 +36,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="quantity of the product"
+        android:hint="quantity of the product"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="148dp" />
 
