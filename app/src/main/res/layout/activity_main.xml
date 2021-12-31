@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Price of the product"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+
+
+    <EditText
+        android:id="@+id/et_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="quantity of the product"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/tv_totalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="total price" />
+
+    <EditText
+        android:id="@+id/et_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="discount"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="295dp" />
+    <TextView
+        android:id="@+id/tv_totalDiscountedPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discounted price" />
+
+    <Button
+        android:id="@+id/bt_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="total"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="461dp" />
+    <Button
+        android:id="@+id/bt_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="542dp" />
+    <Button
+        android:id="@+id/bt_checkOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+
+
+
+</LinearLayout>
